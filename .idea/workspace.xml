@@ -4,30 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ff0fe00-49e2-4ddc-a0f7-3ec65290f42a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/BackEnd_Avia_Jd.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routers/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routers/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routers/bookings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routers/fake_payments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routers/trips.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routers/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/booking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/trip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/booking_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/fake_payment_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/trip_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/user_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="1ff0fe00-49e2-4ddc-a0f7-3ec65290f42a" name="Changes" comment="Admin and fake_payment">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/bookings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/bookings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/booking_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/booking_service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +92,19 @@
       <option name="presentableId" value="Default" />
       <updated>1774901762660</updated>
     </task>
+    <task id="LOCAL-00001" summary="Admin and fake_payment">
+      <option name="closed" value="true" />
+      <created>1786619835363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1786619835363</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Admin and fake_payment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Admin and fake_payment" />
   </component>
 </project>

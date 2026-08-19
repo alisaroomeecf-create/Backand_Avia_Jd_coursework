@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.schemas.booking import BookingCreate
@@ -14,3 +14,10 @@ async def create_booking(data:BookingCreate,db:AsyncSession=Depends(get_db)):
 @router.get("/")
 async def get_booking(db:AsyncSession=Depends(get_db)):
     return await BookingService.get_all(db)
+
+@router.delete("/{booking_id}")
+async def delete_booking(booking_id:int,db:AsyncSession=Depends(get_db)):
+    booking = await BookingService.delete_booking(db, booking_id)
+    if not booking:
+        raise HTTPException(status_code=404, detail="Booking not found")
+    return {"message": "Booking deleted"}
